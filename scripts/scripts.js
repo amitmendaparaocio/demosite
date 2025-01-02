@@ -25,6 +25,7 @@ function buildHeroBlock(main) {
     const section = document.createElement('div');
     section.append(buildBlock('hero', { elems: [picture, h1] }));
     main.prepend(section);
+    
   }
 }
 
